@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>CodeSnippetOnline.Services</RootNamespace>
+    <RootNamespace>CodeSnippet.Online.Services</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace CodeSnippetOnline.Services
+﻿namespace CodeSnippet.Online.Services
 {
     public class AuthorizeService : IAuthorizeService
     {

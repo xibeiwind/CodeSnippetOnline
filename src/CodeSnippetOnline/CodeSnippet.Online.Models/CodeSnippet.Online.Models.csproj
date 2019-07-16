@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeSnippetOnline.Core\CodeSnippetOnline.Core.csproj" />
+    <ProjectReference Include="..\CodeSnippet.Online.Core\CodeSnippet.Online.Core.csproj" />
   </ItemGroup>
 
 </Project>

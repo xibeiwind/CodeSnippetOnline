@@ -1,6 +1,6 @@
 ﻿using Yunyong.Core;
 
-namespace CodeSnippetOnline.Models
+namespace CodeSnippet.Online.Models
 {
     public class SnippetTag : Entity
     {

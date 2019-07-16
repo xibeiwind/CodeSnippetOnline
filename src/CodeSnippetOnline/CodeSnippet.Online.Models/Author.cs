@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using Yunyong.Core;
 
-namespace CodeSnippetOnline.Models
+namespace CodeSnippet.Online.Models
 {
     [Table(nameof(Author))]
     public class Author : Entity

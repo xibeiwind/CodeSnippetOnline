@@ -1,4 +1,4 @@
-﻿namespace CodeSnippetOnline.Core.Enums
+﻿namespace CodeSnippet.Online.Core.Enums
 {
     public enum SnippetType
     {

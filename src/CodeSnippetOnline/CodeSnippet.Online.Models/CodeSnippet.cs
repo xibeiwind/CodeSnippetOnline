@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using CodeSnippetOnline.Core;
-using CodeSnippetOnline.Core.Enums;
+using CodeSnippet.Online.Core;
+using CodeSnippet.Online.Core.Enums;
 using Yunyong.Core;
 
-namespace CodeSnippetOnline.Models
+namespace CodeSnippet.Online.Models
 {
     [Table(nameof(CodeSnippet))]
     public class CodeSnippet : Entity
@@ -18,23 +18,9 @@ namespace CodeSnippetOnline.Models
         public string Shortcut { get; set; }
         public string SnippetCode { get; set; }
         public List<SnippetArgument> Arguments { get; set; }
+        public string Imports { get; set; }
 
         public string IsPrivate { get; set; }
         public Guid CategoryId { get; set; }
-    }
-
-    [Table(nameof(SnippetTagMap))]
-    public class SnippetTagMap : Entity
-    {
-        public Guid SnippetId { get; set; }
-        public Guid TagId { get; set; }
-    }
-
-    [Table(nameof(SnippetCategory))]
-    public class SnippetCategory : Entity
-    {
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public Guid? ParentId { get; set; }
     }
 }
